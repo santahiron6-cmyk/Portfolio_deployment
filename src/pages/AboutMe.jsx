@@ -1,8 +1,8 @@
-import BarreNavigation from "../components/Barre de navigation/BarreNavigation";
+import Box from "../components/AboutMain/AboutMainBox";
 function AboutMe(){
     return(
         <>
-        
+        <Box/>
         </>
     )
 }

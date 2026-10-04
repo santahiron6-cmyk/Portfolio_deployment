@@ -1,7 +1,7 @@
 .buttonStyle{
     padding: 10px;
     border-radius: 15px;
-    background: rgb(186, 89, 10);
+    background: var(--color-button);
     font-size: 18px;
     cursor: pointer;
     font-weight: bold;
@@ -9,7 +9,7 @@
     border: black;
     text-shadow: 1px 1px 1px black;
 &:hover{
-    background:orangered;
+    background:rgba(35, 67, 161, 0.92);
     transition: background 0.5s ease;
     box-shadow: 3px 3px 3px gray;
     transform: scale(1.1) ;

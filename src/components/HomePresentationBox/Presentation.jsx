@@ -16,7 +16,7 @@ function Presentation(props){
             <div className={style.ImgBox}>
                 <a className={style.ImgLien} href={photo}>
                   <img className={style.presentImg} src={photo} alt="" />
-                  <div className={style.ImgHover}><span style={{color:'rgb(186, 89, 10)'}}>view picture</span></div>
+                  <div className={style.ImgHover}><span style={{color:'white'}}>view picture</span></div>
                 </a>
             </div>
         </div>
