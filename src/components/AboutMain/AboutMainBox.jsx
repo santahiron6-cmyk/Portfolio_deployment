@@ -4,7 +4,7 @@ function Box(){
    
     return(
         <div className={styles.AboutBox}>
-          
+          <Card/>
         </div>
     )
 }
