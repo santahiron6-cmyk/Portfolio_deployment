@@ -1,3 +1,4 @@
 .AboutBox{
-    display: flex;
+    background: var(--color-bg);
+    height: 350px;
 }

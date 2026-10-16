@@ -35,7 +35,7 @@ function BarreNavigation({link1,link2,link3,link4}){
     <nav className={styles.Box}>
             <Link to="/" className={styles.logo}>
                 <span className={styles.logoNom}>{logo.nom}</span>
-                <span className={styles.logoPrenom}>{ logo.prenom}</span>
+                <span className={styles.logoPrenom}>{logo.prenom}</span>
             </Link>
             <div className={styles.dropdownBox}>
             <button 

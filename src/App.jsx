@@ -11,12 +11,12 @@ function App() {
 
   return (
     <>
-    <BarreNavigation link1="Home" link2="About me" link3="News" link4="skills"/> 
+    <BarreNavigation link1="Home" link2="About me" link3="Formation" link4="skills"/> 
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/About_Me' element={<AboutMe/>}/>
     </Routes>
-    <Footer link1="Home" link2="News" link3="skills" link4="about me" logo={{sirname:'Sana',firstname:'tahirou'}} />
+    <Footer link1="Home" link2="About me" link3="Formation" link4="skills" logo={{sirname:'Sana',firstname:'tahirou'}} />
     </>
   )
 }

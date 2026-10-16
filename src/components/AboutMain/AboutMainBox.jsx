@@ -1,4 +1,4 @@
-
+import Card from "../cards/card";
 import styles from "./aboutMain.module.css"
 function Box(){
    
